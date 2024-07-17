@@ -1115,3 +1115,13 @@ section {
     padding-right: 20px 15px;
   }
 }
+@media (max-width: 765px) {
+  .title-flex {
+    display: flex;
+    flex-direction: column;
+  }
+  .title-flex div {
+    flex-basis: 100%;
+    /* background: #000; */
+  }
+}
